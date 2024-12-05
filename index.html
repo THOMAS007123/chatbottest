@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <div class="main_div">
+        <div class="menuToggle">
+            <i class='bx bxs-bot' ></i>
+        </div>
+        <div class="container">
+            <div class="top_part">
+                <div class="bor">
+                <div class="Bot_detail">
+                <img src="./asiet logo.png" alt="">
+                <div class="Bot_text">
+                <h3>ASIET</h3>
+                <p>ChatBot : <span>Online</span></p>
+            </div>
+            </div>
+        </div>
+        <i class='bx bx-x'></i>
+        </div>
+        <div class="chat">
+            <div class="Left_part">
+                <div class="chart">
+                    <img src="./asiet logo white.jpg" alt="">
+                    <p>Hello how can i help u ?</p>
+                </div>
+            </div>
+            <div class="Right_part">
+                <p>hello</p>
+            </div>
+        </div>
+        <div class="Bottom">
+            <textarea name="" id="" placeholder="Send a Message."></textarea>
+            <i class='bx bxs-send' ></i>
+        </div>
+        </div>
+    </div>
+<script>
+    const menuToggle = document.querySelector('.menuToggle');
+    menuToggle.onclick = function()
+    {
+        menuToggle.classList.toggle('active')
+    }
+</script>
+</body>
+</html>
